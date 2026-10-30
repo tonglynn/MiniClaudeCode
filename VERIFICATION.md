@@ -9,7 +9,7 @@ Checks performed on 2026-10-30 for this public reconstruction. These results des
 - `miniclaudecode --help`: installed CLI entry point works.
 - `miniclaude-audit --offline-check`: **26/26 contract/verifier checks passed**.
 - A distribution wheel built successfully and includes all 26 benchmark fixtures.
-- A Windows/Ubuntu, Python 3.12/3.13 GitHub Actions template is included in `docs/ci.yml`. It has not run: the publishing credential lacks GitHub's `workflow` scope. The README badge reports the local test result only.
+- GitHub Actions is enabled in `.github/workflows/ci.yml` for Windows/Ubuntu and Python 3.12/3.13. It runs the unit suite, CLI smoke check, and offline contract validation. See the [CI runs](https://github.com/tonglynn/MiniClaudeCode/actions/workflows/ci.yml) for remote results.
 
 Tests exercise protocol conversion and streaming parsers, retry behavior, deferred activation, schema validation, concurrent reads and fallback, context stages, persistent memory, session recovery, hierarchical instructions, permission modes, dangerous-command checks, stale-edit protection, independent verification, and metric aggregation. They include 18 context scenarios, 40 risky-command cases, and 20 stale-edit comparison scenarios using controlled providers.
 

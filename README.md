@@ -1,6 +1,6 @@
 # MiniClaudeCode
 
-[![Tests](https://img.shields.io/badge/local_tests-122_passed-brightgreen)](VERIFICATION.md)
+[![CI](https://github.com/tonglynn/MiniClaudeCode/actions/workflows/ci.yml/badge.svg)](https://github.com/tonglynn/MiniClaudeCode/actions/workflows/ci.yml)
 ![Python](https://img.shields.io/badge/python-3.12%2B-blue)
 ![License](https://img.shields.io/badge/license-MIT-green)
 
@@ -98,7 +98,7 @@ python -m pytest -q
 miniclaude-audit --offline-check
 ```
 
-A ready-to-use [GitHub Actions template](docs/ci.yml) covers Windows/Ubuntu and Python 3.12/3.13. To enable CI, place it at `.github/workflows/ci.yml` using credentials with workflow-write permission. Automated GitHub runs are not enabled in this release.
+[GitHub Actions](https://github.com/tonglynn/MiniClaudeCode/actions/workflows/ci.yml) runs the unit tests, installed CLI smoke check, and offline contract validation on Windows and Ubuntu with Python 3.12 and 3.13 for every push and pull request. The badge above shows the latest CI result.
 
 The offline check verifies that each of the **26 reconstructed contracts** rejects its broken fixture and accepts its reference implementation. It makes no model calls and **is not an agent completion benchmark**. The fixtures intentionally contain bugs, so run the project tests in `tests/` rather than treating fixture tests as project regressions.
 
