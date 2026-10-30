@@ -1,0 +1,135 @@
+{
+  "mode": "offline_suite_validation_NOT_agent_benchmark",
+  "results": [
+    {
+      "task": "t01_clamp",
+      "rejects_broken": true,
+      "accepts_reference": true
+    },
+    {
+      "task": "t02_unique",
+      "rejects_broken": true,
+      "accepts_reference": true
+    },
+    {
+      "task": "t03_chunks",
+      "rejects_broken": true,
+      "accepts_reference": true
+    },
+    {
+      "task": "t04_flatten",
+      "rejects_broken": true,
+      "accepts_reference": true
+    },
+    {
+      "task": "t05_median",
+      "rejects_broken": true,
+      "accepts_reference": true
+    },
+    {
+      "task": "t06_merge_intervals",
+      "rejects_broken": true,
+      "accepts_reference": true
+    },
+    {
+      "task": "t07_binary_search",
+      "rejects_broken": true,
+      "accepts_reference": true
+    },
+    {
+      "task": "t08_two_sum",
+      "rejects_broken": true,
+      "accepts_reference": true
+    },
+    {
+      "task": "t09_balanced",
+      "rejects_broken": true,
+      "accepts_reference": true
+    },
+    {
+      "task": "t10_word_counts",
+      "rejects_broken": true,
+      "accepts_reference": true
+    },
+    {
+      "task": "t11_slugify",
+      "rejects_broken": true,
+      "accepts_reference": true
+    },
+    {
+      "task": "t12_safe_divide",
+      "rejects_broken": true,
+      "accepts_reference": true
+    },
+    {
+      "task": "t13_parse_bool",
+      "rejects_broken": true,
+      "accepts_reference": true
+    },
+    {
+      "task": "t14_deep_get",
+      "rejects_broken": true,
+      "accepts_reference": true
+    },
+    {
+      "task": "t15_transpose",
+      "rejects_broken": true,
+      "accepts_reference": true
+    },
+    {
+      "task": "t16_rotate",
+      "rejects_broken": true,
+      "accepts_reference": true
+    },
+    {
+      "task": "t17_moving_average",
+      "rejects_broken": true,
+      "accepts_reference": true
+    },
+    {
+      "task": "t18_json_lines",
+      "rejects_broken": true,
+      "accepts_reference": true
+    },
+    {
+      "task": "t19_top_words",
+      "rejects_broken": true,
+      "accepts_reference": true
+    },
+    {
+      "task": "t20_max_subarray",
+      "rejects_broken": true,
+      "accepts_reference": true
+    },
+    {
+      "task": "t21_is_prime",
+      "rejects_broken": true,
+      "accepts_reference": true
+    },
+    {
+      "task": "t22_factorial",
+      "rejects_broken": true,
+      "accepts_reference": true
+    },
+    {
+      "task": "t23_fibonacci",
+      "rejects_broken": true,
+      "accepts_reference": true
+    },
+    {
+      "task": "t24_days_between",
+      "rejects_broken": true,
+      "accepts_reference": true
+    },
+    {
+      "task": "t25_csv_total",
+      "rejects_broken": true,
+      "accepts_reference": true
+    },
+    {
+      "task": "t26_parse_query",
+      "rejects_broken": true,
+      "accepts_reference": true
+    }
+  ]
+}

@@ -1,0 +1,4 @@
+{
+  "allow": ["write_file:*", "edit_file:*"],
+  "deny": ["run_command:*git push*"]
+}

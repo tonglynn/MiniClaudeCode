@@ -1,0 +1,17 @@
+.venv/
+__pycache__/
+.pytest_cache/
+*.py[cod]
+*.egg-info/
+build/
+dist/
+.provider_private.json
+.deepseek_private.json
+.miniclaude/
+runs/
+workspace/
+.env
+.env.*
+!.env.example
+*.pem
+*.key

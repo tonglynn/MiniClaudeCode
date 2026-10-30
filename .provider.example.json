@@ -1,0 +1,6 @@
+{
+  "protocol": "openai",
+  "base_url": "https://api.deepseek.com",
+  "model": "deepseek-flash",
+  "api_key": ""
+}

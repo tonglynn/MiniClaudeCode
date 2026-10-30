@@ -1,0 +1,31 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "miniclaudecode"
+version = "1.0.0"
+description = "An asynchronous coding-agent CLI with deferred tools, staged context compression, persistent memory, and an evaluation harness."
+readme = "README.md"
+requires-python = ">=3.12"
+license = {text = "MIT"}
+authors = [{name = "Tong Lin"}]
+dependencies = ["rich>=13.9,<15", "pytest>=8,<10"]
+
+[project.scripts]
+miniclaudecode = "miniclaudecode.__main__:main"
+miniclaude-audit = "audit.__main__:main"
+
+[project.urls]
+Repository = "https://github.com/tonglynn/MiniClaudeCode"
+Issues = "https://github.com/tonglynn/MiniClaudeCode/issues"
+
+[tool.setuptools.packages.find]
+include = ["miniclaudecode*", "audit*", "benchmarks*"]
+
+[tool.setuptools.package-data]
+benchmarks = ["tasks.json", "fixtures/*/*.py", "fixtures/*/*.md"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+pythonpath = ["tests"]
