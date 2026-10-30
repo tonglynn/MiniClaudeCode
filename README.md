@@ -8,7 +8,7 @@ A local coding-agent CLI for exploring repositories, planning changes, editing f
 
 The focus is the **harness around the model**: when tools become available, how context stays useful, which operations require approval, and how an independent evaluator checks the result.
 
-[中文说明](docs/README.zh-CN.md) · [Design](docs/design.md) · [Verification](VERIFICATION.md)
+[中文说明](docs/README.zh-CN.md) · [Design](docs/design.md) · [Verification](VERIFICATION.md) · [Standalone Audit evaluator](https://github.com/tonglynn/Audit)
 
 ## Capabilities
 
